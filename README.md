@@ -1,6 +1,6 @@
 
 
-# 📋 copysuremsg
+# 📋 copy_sure
 
 **Eliminate "Copy Discomfort" with instant visual feedback.**
 
