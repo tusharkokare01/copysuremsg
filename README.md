@@ -34,14 +34,14 @@ Have you ever pressed `Ctrl+C` and felt unsure if the computer actually register
 1. Go to the **[Releases]** section.
 2. Download `ClipboardPopup.exe`.
 3. Double-click to run. No installation or AutoHotkey required!
+4. Move it to Startup folder for auto start when restart (Optional)
 
 #### Option 2: Run from Source
 
 1. Install [AutoHotkey v2](https://www.autohotkey.com/).
 2. Download `ClipboardPopup.ahk` from this repository.
 3. Double-click the script to run.
-
-> **Pro Tip:** To make it permanent, press `Win + R`, type `shell:startup`, and paste a shortcut to the `.exe` or `.ahk` file there.
+4.Move it to Startup folder for auto start when restart (Optional)
 
 ---
 
@@ -57,16 +57,3 @@ Have you ever pressed `Ctrl+C` and felt unsure if the computer actually register
 
 ---
 
-
-⚙️ How to make it start automatically
-To ensure copysuremsg is always ready when you turn on your computer, follow these simple steps:
-
-Press Win + R on your keyboard to open the Run dialog.
-
-Type shell:startup and hit Enter. This opens the Windows Startup folder.
-
-Right-click your copysuremsg.exe (or .ahk script) and select "Create shortcut".
-
-Drag and drop that new shortcut into the Startup folder you just opened.
-
-Now, the tool will launch silently every time you log in to Windows
