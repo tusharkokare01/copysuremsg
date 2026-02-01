@@ -32,7 +32,7 @@ Have you ever pressed `Ctrl+C` and felt unsure if the computer actually register
 #### Option 1: The Easy Way (No Install)
 
 1. Go to the **[Releases]** section.
-2. Download `copysuremsg.exe`.
+2. Download `ClipboardPopup.exe`.
 3. Double-click to run. No installation or AutoHotkey required!
 
 #### Option 2: Run from Source
@@ -57,16 +57,16 @@ Have you ever pressed `Ctrl+C` and felt unsure if the computer actually register
 
 ---
 
-### 📄 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+⚙️ How to make it start automatically
+To ensure copysuremsg is always ready when you turn on your computer, follow these simple steps:
 
----
+Press Win + R on your keyboard to open the Run dialog.
 
+Type shell:startup and hit Enter. This opens the Windows Startup folder.
 
-### Next steps for you:
+Right-click your copysuremsg.exe (or .ahk script) and select "Create shortcut".
 
-1. **Create a LICENSE file:** On GitHub, click "Add file" -> "Create new file" and type `LICENSE`. Choose the **MIT template**. It makes your project look "official."
-2. **Add a screenshot:** If you can, take a screenshot of the "Copied!" message and upload it to your repo so people can see what it looks like before downloading.
+Drag and drop that new shortcut into the Startup folder you just opened.
 
-**Would you like me to generate a specific MIT License text for you to paste into your repo?**
+Now, the tool will launch silently every time you log in to Windows
